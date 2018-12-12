@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".appInformation">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10%"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10%"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="磁盘占用率"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内存占用率"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="app安装时间"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="访问权限"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="205dp"
+        android:layout_height="24dp"
+        android:text="照片"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="205dp"
+        android:layout_height="24dp"
+        android:text="通知"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="205dp"
+        android:layout_height="24dp"
+        android:text="无线数据"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="205dp"
+        android:layout_height="24dp"
+        android:text="位置"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="70dp"
+        android:layout_height="19dp"
+        android:text="cpu占用率"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10%"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="356dp" />
+</android.support.constraint.ConstraintLayout>
